@@ -1,0 +1,171 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: #aad4cf;
+    
+   
+}
+.main-wrapper {
+   background-color: #d2e2e8;
+   width: 70%;
+   margin:  auto;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+h2
+{
+    text-align: left;
+    margin: 25px 0;
+}
+
+h3
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+p {
+    line-height: 1.6;
+     width: 100%;
+    
+}
+
+header {
+    background-color:#aad4cf;
+
+}
+
+.header-container {
+    position: relative;
+    text-align: center;
+}
+
+.header-container img {
+    width: 70%;
+    height: auto;
+    
+}
+
+.header-container h1 {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4rem;
+    padding: 10px 20px;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+.nav-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+nav {
+    text-align: center;
+    margin: -5px auto;
+   background-color: #d2e2e8;
+    padding: 10px 0;
+    
+    
+}
+
+nav a {
+
+    color: black;
+    margin: 0 120px;
+    font-weight: bold;
+    font-size: 25px;
+    font-weight: 300;
+    text-decoration: none;
+   
+     
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav li{
+    flex: 1;
+    text-align: center;
+    padding: 16.5px 0;
+    border-left: 2px solid black;
+}
+
+nav li:first-child {
+    border-left: none;
+}
+
+#story {
+    padding: 11px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#story img.float-img {
+    float: left;
+    margin-right: 15px;
+    padding-bottom: 10px;
+    width: 180px;
+   
+}
+
+#facts {
+    
+    padding: -10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#facts ul {
+    list-style: disc;
+    margin-left: -3%;
+}
+
+#contact {
+   
+    padding: 5px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #d2e2e8;
+    
+}
+
+form {
+    border: 1px solid black;
+    display: flex;
+
+    padding: 20px;
+    flex-direction: column;
+    /* ask the teacher*/ gap: 10px;
+}
+
+
+
+form button {
+    margin-top:  15px;
+
+   width: 7%;
+   /* ask the teacher*/padding: 5px 10px;
+   font-size: 12px;
+   text-transform: uppercase;
+   background-color: #d2e2e8;
+}
+footer {
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+
